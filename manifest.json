@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+
+  "name": "LOR ext",
+  "description": "Extension for LOR",
+  "version": "1.0",
+
+  "content_scripts": [
+  {
+      "matches": ["http://www.linux.org.ru/*","https://www.linux.org.ru/*"],
+      "css": ["true.css"]
+  }
+  ]
+}
